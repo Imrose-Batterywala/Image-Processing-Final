@@ -1,4 +1,4 @@
-# ImageProcessing Experiments
+# Low Light Image Enhancement
 
 Utilities for running the MDIB and Zero-DCE low-light enhancement models and
 comparing their outputs on the LOL-pre evaluation set.
