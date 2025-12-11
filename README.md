@@ -38,11 +38,10 @@ After both enhancement runs finish, create the plots and metrics:
 ```bash
 cd Comparison
 python3 compare_mean.py         # aggregate quality metrics & plots
-python3 compare_per_image.py    # per-image metric breakdown
 python3 compare_psnr_ssim.py    # PSNR/SSIM summary + bar charts
 python3 compare_images.py       # side-by-side collage in results_images/
 ```
 
-The outputs are written into `Comparison/results_mean`, `Comparison/results_per_image`,
-and `Comparison/results_images`. PSNR/SSIM values are computed only for the
-LOL-pre dataset, matching the project requirements.
+The outputs are written into `Comparison/results_mean` and
+`Comparison/results_images`. PSNR/SSIM values are computed only for the LOL-pre
+dataset, matching the project requirements.
