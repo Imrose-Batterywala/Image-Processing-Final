@@ -18,14 +18,18 @@ scikit-image, and pyiqa.
 
 ## Run the Enhancement Models
 
-Each method writes its enhanced outputs under its own `data/result` folder.
+Each method writes its enhanced outputs under its own `data/result` folder. Run
+the scripts from inside the respective code directories so relative paths
+resolve correctly.
 
 ```bash
 # MDIB
-python3 MDIB/MDIB_Code/lowlight_test.py
+cd MDIB/MDIB_Code
+python3 lowlight_test.py
 
 # Zero-DCE
-python3 Zero-DCE/Zero-DCE_code/lowlight_test.py
+cd Zero-DCE/Zero-DCE_code
+python3 lowlight_test.py
 ```
 
 Ensure the `data/test_data` folders contain the LOL-pre low-light inputs, and
